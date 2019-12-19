@@ -75,14 +75,16 @@ worker_1  | [  2019-12-19 13:18:57,521] [INFO] worker.p2p-startup             ma
 
 7. Transfer some Kovan ETH (1 KETH will be plenty) to your `operating address`
 
-8. In the `CLI`, type `register` and look at the logs from the first terminal. You should eventually see a line like this:
+8. In the `CLI`, type `register` and look at the node status box. After a successful registration the status will change to `Registered`.
+In addition, you can look at the logs from the first terminal. You should eventually see a line like this:
 
     ```
     worker    | 2019-12-19T13:30:41Z INFO [P2P-MainController] - [REGISTER] successful registration
     ```
 9. Next you need to `setOperatingAddress()` and `deposit()` with your `staking Address`. We provide a bare-bones NodeJS script until nicer and more friedly user interfaces (UIs) are built. See the `client/` folder for instructions.
 
-10. Finally, in the CLI, type `login` and look at the logs from the first terminal, You should eventually see a line like this:
+10. Finally, in the CLI, type `login` and wait for the node status box to change to `Running`. 
+In addtion, you may look at the logs from the first terminal, You should eventually see a line like this:
 
     ```
     worker    | 2019-12-19T13:30:41Z INFO [P2P-MainController] - [LOGIN] successful login
