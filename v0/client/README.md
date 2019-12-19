@@ -45,6 +45,14 @@ This folder provides a very simple NodeJS script to run two external functions t
 	```
 	node stake.js
 	```
+	**Note:**
+	If you encounter errors when running node stake.js use
+	```
+	yarn add **module_name_here**
+	```
+
+
+
 
 	which should output two lines:
 
