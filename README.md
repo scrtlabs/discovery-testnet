@@ -1,6 +1,10 @@
 # discovery-testnet
 
-Reference data for the Discovery Tesnet releases.
+👋 Welcome to the Enigma Discovery Testnet. We are glad that you are interested in Data Privacy, and you are considering joining the Enigma network, a protocol that lets anyone perform computations on encrypted data, bringing privacy to smart contracts and public blockchains.
+
+This repository provides the reference data for the Discovery Tesnet releases.
+
+Refer to the [v0/README.md](https://github.com/enigmampc/discovery-testnet/blob/master/v0/README.md) for the instructions on how to run a worker node in `testnet v0` 🚀
 
 ## v0 - 2019-12-19
 
