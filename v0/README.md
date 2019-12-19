@@ -80,6 +80,15 @@ worker_1  | [  2019-12-19 13:18:57,521] [INFO] worker.p2p-startup             ma
     ```
     worker    | 2019-12-19T13:30:41Z INFO [P2P-MainController] - [REGISTER] successful registration
     ```
+9. Next you need to `setOperatingAddress()` and `deposit()` with your `staking Address`. We provide a bare-bones NodeJS script until nicer and more friedly user interfaces (UIs) are built. See the `client/` folder for instructions.
+
+10. Finally, in the CLI, type `login` and look at the logs from the first terminal, You should eventually see a line like this:
+
+    ```
+    worker    | 2019-12-19T13:30:41Z INFO [P2P-MainController] - [LOGIN] successful login
+    ```
+
+🙌 CONGRATULATIONS 🙌 your node has successfully joined the Enigma Discovery Testnet and will start being eligible to run computations in the network at the next epoch change.
 
 
 
