@@ -2,7 +2,7 @@
 
 This folder provides a very simple NodeJS script to run two external functions that are needed when setting up a Worker Node in the Enigma Network, namely:
 
-- `setOperatingAdddress()`
+- `setOperatingAddress()`
 - `deposit()`
 
 ## Installation and Setup
@@ -28,7 +28,7 @@ This folder provides a very simple NodeJS script to run two external functions t
 4. Open an account with [infura.io](https://infura.io), create a project, and copy your `PROJECT_ID` into an `.env` file as follows, as well as the mnemonic of your `staking Address` (⚠️ DO NOT EVER COMMIT THIS FILE INTO ANY REPO OF YOURS ⚠️, there is a line in the `.gitignore` of this repo for this purpose, do not override it!):
 
 	```
-	NEMONIC="YOUR_STAKING_ADDRESS_MNEMONIC_HERE"
+	MNEMONIC="YOUR_STAKING_ADDRESS_MNEMONIC_HERE"
 	ENDPOINT_KEY="PROJECT_ID"
 	```
 
@@ -57,6 +57,6 @@ This folder provides a very simple NodeJS script to run two external functions t
 	which should output two lines:
 
 	```
-	Successfully "setOperatingAddress(YOUR_STAKING_ADDRESS, YOUR_OPEARING_ADDRESS)";
+	Successfully "setOperatingAddress(YOUR_STAKING_ADDRESS, YOUR_OPERATING_ADDRESS)";
 	Successfully deposited {SOME} ENG into Enigma contract for staking address: YOUR_STAKING_ADDRESS
 	```

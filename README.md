@@ -32,7 +32,7 @@ For the rest of addresses of the library contracts that the Enigma contract depe
 | Bootstrap Node 3                | bootstrap-3.testnet.services.engima.co       |
 
 
-### Enigma Contract Constructor Paramters
+### Enigma Contract Constructor Parameters
 
 | Parameter                       | Value                                                                |
 | --------------------------------|----------------------------------------------------------------------|
