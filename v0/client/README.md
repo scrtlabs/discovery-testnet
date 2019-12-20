@@ -45,18 +45,15 @@ This folder provides a very simple NodeJS script to run two external functions t
 	```
 	node stake.js
 	```
-	**Note:**
-	If you encounter errors when running node stake.js use
-	```
-	yarn add **module_name_here**
-	```
-
-
-
-
-	which should output two lines:
+	
+		which should output two lines:
 
 	```
 	Successfully "setOperatingAddress(YOUR_STAKING_ADDRESS, YOUR_OPERATING_ADDRESS)";
 	Successfully deposited {SOME} ENG into Enigma contract for staking address: YOUR_STAKING_ADDRESS
+	```
+	**Note:**
+	If you encounter errors when running node stake.js use
+	```
+	yarn add **module_name_here**
 	```
