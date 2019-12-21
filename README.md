@@ -12,7 +12,7 @@ Refer to the [v0/README.md](https://github.com/enigmampc/discovery-testnet/blob/
 
 | Parameter                       | Value                                        |
 | --------------------------------|:--------------------------------------------:| 
-| Enigma Contract Address         | `0xEF6D304e9DAF5bc292AAAA6186749dd13ccbCac8` |
+| Enigma Contract Address         | `0x758C82F0ecba028b9c7730F798F378EC121b5877` |
 | Enigma Token Contract Address   | `0xA5D12Ea873e33806B9f2A87b779facee297748cD` |
 | Key Management Ethereum Address | `0x08f1A8d4c3085839315Ff3dA1acf194697864855` |
 | Bootstrap 1 Ethereum Address    | `0x7F79E8fcF310413be02003d24966B1Fa4AaE71a0` |
