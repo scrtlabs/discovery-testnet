@@ -10,6 +10,8 @@
 - `Ubuntu 16.04` or `Ubuntu 18.04` (though other Linux distros are probably supported, more info coming soon).
 - Docker
 - Docker-Compose
+- Yarn
+- Node.js
 
 ### Setup
 
