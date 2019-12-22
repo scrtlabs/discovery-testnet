@@ -4,20 +4,17 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 var fs = require("fs");
 require('dotenv').config();
 
-var mnemonic = process.env["MNEMONIC"];
-var tokenKey = process.env["ENDPOINT_KEY"];
+const mnemonic = process.env['NEMONIC'];
+const tokenKey = process.env['ENDPOINT_KEY'];
+const enigmaAddress = process.env['ENIGMA_ADDRESS'];
+const enigmaTokenAddress = process.env['ENIGMA_TOKEN_ADDRESS'];
+const bootstrapNode = process.env['BOOTSTRAP_NODE'];
+const stakingAddress = process.env['STAKING_ADDRESS'];
+const operatingAddress = process.env['OPERATING_ADDRESS'];
 
 // ********** Change these values as needed ********************
 
-const stakingAddress = 'SET_YOUR_STAKING_ADDRESS_HERE';
-const operatingAddress = 'SET_YOUR_WORKER_OPERATING_ADDRESS_HERE';
 const amount = 1 // in ENG
-
-// ********** You should not need to changes these *************
-
-const enigmaAddress = '0x758C82F0ecba028b9c7730F798F378EC121b5877';
-const enigmaTokenAddress = '0xA5D12Ea873e33806B9f2A87b779facee297748cD';
-const bootstrapNode = 'http://bootstrap-1.testnet.services.engima.co:3346';
 
 // *************************************************************
 

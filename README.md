@@ -4,7 +4,7 @@
 
 This repository provides the reference data for the Discovery Tesnet releases.
 
-Refer to the [v0/README.md](https://github.com/enigmampc/discovery-testnet/blob/master/v0/README.md) for the instructions on how to run a worker node in `testnet v0` 🚀
+Refer to the [SETUP.md](https://github.com/enigmampc/discovery-testnet/blob/master/SETUP.md) for the instructions on how to run a worker node in `testnet` 🚀
 
 ## v1 - 2019-12-22
 
