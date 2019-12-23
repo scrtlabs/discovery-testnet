@@ -1,8 +1,4 @@
-# Testnet v0
-
-**Release Date**: 2019-12-19
-
-## How to run a node
+# How to setup a node
 
 ### Requirements
 
@@ -57,10 +53,6 @@ worker_1  | [  2019-12-19 13:18:47,511] [INFO] worker.p2p-startup             ma
 worker_1  | [2019-12-19 13:18:47] [worker] INFO  enigma_core_app::esgx::general -- init_enclave_wrapper() => Ok(SgxEnclave { id: 2, debug: 1, path: "../bin/enclave.signed.so" })
 worker_1  | [2019-12-19 13:18:47] [worker] INFO  enigma_core_app -- [+] Init Enclave Successful 2!
 worker_1  | [  2019-12-19 13:18:49,512] [INFO] worker.p2p-startup             main:122 -- Waiting for staking address... Set it up using the CLI
-worker_1  | [  2019-12-19 13:18:51,514] [INFO] worker.p2p-startup             main:122 -- Waiting for staking address... Set it up using the CLI
-worker_1  | [  2019-12-19 13:18:53,516] [INFO] worker.p2p-startup             main:122 -- Waiting for staking address... Set it up using the CLI
-worker_1  | [  2019-12-19 13:18:55,519] [INFO] worker.p2p-startup             main:122 -- Waiting for staking address... Set it up using the CLI
-worker_1  | [  2019-12-19 13:18:57,521] [INFO] worker.p2p-startup             main:122 -- Waiting for staking address... Set it up using the CLI
 ```
 
 4. Open a different terminal, and launch the command-line interface (CLI) for your node:
@@ -75,13 +67,19 @@ worker_1  | [  2019-12-19 13:18:57,521] [INFO] worker.p2p-startup             ma
 
 7. Transfer some Kovan ETH (1 KETH will be plenty) to your `operating address`
 
-8. In the `CLI`, type `register` and look at the node status box. After a successful registration the status will change to `Registered`.
-In addition, you can look at the logs from the first terminal. You should eventually see a line like this:
+8. In the `CLI`, type `register` and look at the node status box. After a successful registration the status will change to `Registered`. In addition, you can look at the logs from the first terminal. You should eventually see a line like this:
 
     ```
     worker    | 2019-12-19T13:30:41Z INFO [P2P-MainController] - [REGISTER] successful registration
     ```
-9. Next you need to `setOperatingAddress()` and `deposit()` with your `staking Address`. We provide a bare-bones NodeJS script until nicer and more friedly user interfaces (UIs) are built. See the `client/` folder for instructions.
+9. Next you need to add your stake to the Enigma contract, which takes three different transactions. The `CLI` will provide you with the destination address and the data field for each transaction, which you take to your wallet to send `0` eth to that address and include the `data` in the data field. You can use *My Ether Wallet* or *MyCrypto* to send these transactions: click on "Advanced" in the "send ether & tokens" tab to set the data field. You send these three transactions from your **Staking Address** where you hold the ENG tokens that you want to stake in running a node. Make sure that each transaction succeeds before submitting the next one.
+
+9a. Type `generate set-address` in the `CLI`, and send a transaction (to the Enigma contract) with that data.
+
+9b. Type `generate approve <AMOUNT>`, where `<AMOUNT>` is the amount in ENG tokens that you want to stake.
+
+9c. Type `generate deposit <AMOUNT>`, using the same amount as in the previous step.
+
 
 10. Finally, in the CLI, type `login` and wait for the node status box to change to `Running`. 
 In addtion, you may look at the logs from the first terminal, You should eventually see a line like this:
