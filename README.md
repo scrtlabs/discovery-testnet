@@ -15,9 +15,9 @@ Refer to the [SETUP.md](https://github.com/enigmampc/discovery-testnet/blob/mast
 | Enigma Contract Address         | `0x8FDbB8BA27d122BE10bfA63B8F0FD2676d083e50` |
 | Enigma Token Contract Address   | `0xA5D12Ea873e33806B9f2A87b779facee297748cD` |
 | Key Management Ethereum Address | `0x08f1A8d4c3085839315Ff3dA1acf194697864855` |
-| Bootstrap 1 Ethereum Address    | `0x7F79E8fcF310413be02003d24966B1Fa4AaE71a0` |
-| Bootstrap 2 Ethereum Address    | `0x7B766D180f07a4D9116A6226B36a6C275B61AFD1` |
-| Bootstrap 3 Ethereum Address    | `0xbA30A4A586Fcc5c6deF749b173b744dA5A14e25c` |
+| Bootstrap 1 Ethereum Address    | `0x4020c019f4ed873241b7d4eb0c9f755ed6ae55c2` |
+| Bootstrap 2 Ethereum Address    | `0x0c836793653c8872277f8b538af11c96052f4700` |
+| Bootstrap 3 Ethereum Address    | `0x2014bb777c95414aa3ff7dc63defd405dcc26cd4` |
 | Owner of Enigma Contract        | `0xDa6A5528FabD9a88b5a17B27Afaa3e95956Ab08d` |
 
 For the rest of addresses of the library contracts that the Enigma contract depends on and uses, see the `v0/contracts/` folder, where each address is written in a text file with the name of the corresponding library.
