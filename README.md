@@ -27,9 +27,9 @@ For the rest of addresses of the library contracts that the Enigma contract depe
 | Parameter                       | Value                                        |
 | --------------------------------|----------------------------------------------| 
 | Key Management Address          | km-testnet.enigma.co                         |
-| Bootstrap Node 1                | bootstrap-1.testnet.services.engima.co       |
-| Bootstrap Node 2                | bootstrap-2.testnet.services.engima.co       |
-| Bootstrap Node 3                | bootstrap-3.testnet.services.engima.co       |
+| Bootstrap Node 1                | bootstrap-1.testnet.services.enigma.co       |
+| Bootstrap Node 2                | bootstrap-2.testnet.services.enigma.co       |
+| Bootstrap Node 3                | bootstrap-3.testnet.services.enigma.co       |
 
 
 ### Enigma Contract Constructor Parameters
