@@ -63,10 +63,10 @@ For the rest of addresses of the library contracts that the Enigma contract depe
 
 | Parameter                       | Value                                        |
 | --------------------------------|----------------------------------------------| 
-| Key Management Address          | <REALLOCATED TO v2>                          |
-| Bootstrap Node 1                | <REALLOCATED TO v2>                          |
-| Bootstrap Node 2                | <REALLOCATED TO v2>                          |
-| Bootstrap Node 3                | <REALLOCATED TO v2>                          |
+| Key Management Address          | REALLOCATED TO v2                            |
+| Bootstrap Node 1                | REALLOCATED TO v2                            |
+| Bootstrap Node 2                | REALLOCATED TO v2                            |
+| Bootstrap Node 3                | REALLOCATED TO v2                            |
 
 
 ### Enigma Contract Constructor Parameters
@@ -101,10 +101,10 @@ For the rest of addresses of the library contracts that the Enigma contract depe
 
 | Parameter                       | Value                                        |
 | --------------------------------|----------------------------------------------| 
-| Key Management Address          | <REALLOCATED TO v1>                          |
-| Bootstrap Node 1                | <REALLOCATED TO v1>                          |
-| Bootstrap Node 2                | <REALLOCATED TO v1>                          |
-| Bootstrap Node 3                | <REALLOCATED TO v1>                          |
+| Key Management Address          | REALLOCATED TO v1                            |
+| Bootstrap Node 1                | REALLOCATED TO v1                            |
+| Bootstrap Node 2                | REALLOCATED TO v1                            |
+| Bootstrap Node 3                | REALLOCATED TO v1                            |
 
 
 ### Enigma Contract Constructor Parameters
