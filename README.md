@@ -14,7 +14,7 @@ Refer to the [SETUP.md](https://github.com/enigmampc/discovery-testnet/blob/mast
 | --------------------------------|:--------------------------------------------:| 
 | Enigma Contract Address         | TBD                                          |
 | Enigma Token Contract Address   | `0xA5D12Ea873e33806B9f2A87b779facee297748cD` |
-| Key Management Ethereum Address | `0x08f1A8d4c3085839315Ff3dA1acf194697864855` |
+| Key Management Ethereum Address | `0x19585BcDf99D8a4507710F4cf290DB2ccEC27833` |
 | Bootstrap 1 Ethereum Address    | `0x4020c019f4ed873241b7d4eb0c9f755ed6ae55c2` |
 | Bootstrap 2 Ethereum Address    | `0x0c836793653c8872277f8b538af11c96052f4700` |
 | Bootstrap 3 Ethereum Address    | `0x2014bb777c95414aa3ff7dc63defd405dcc26cd4` |
