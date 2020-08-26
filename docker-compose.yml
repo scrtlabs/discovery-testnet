@@ -4,6 +4,7 @@ services:
     hostname: worker
     container_name: worker
     image: enigmampc/external_worker_hw:testnet
+    restart: unless-stopped
     environment:
       - ENIGMA_ENV=TESTNET
       - SGX_MODE=HW
